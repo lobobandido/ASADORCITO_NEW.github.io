@@ -834,3 +834,12 @@ h4 {
   overflow      : hidden;
   border-radius : var(--border-radius);
 }
+/* footer */
+.firma {
+  width: 90%;
+  margin-left  : 10;
+  margin-right : 10;
+  /* overflow: hidden; */
+  /* box-shadow: 10px 5px 15px 2px; */
+   text-align : center ;
+}
