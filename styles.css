@@ -244,7 +244,7 @@ h4 {
 @media screen and (min-width: 1024px) {
 
   .main-header img {
-    height : 4rem;
+    height : 5%;
   }
 
 }
@@ -845,6 +845,6 @@ h4 {
 }
 .logo {
   border-radius: 20%;
-  width: 100px;
+  width: 125px;
   box-shadow: 0 5px 5px 5px rgba(243, 173, 69, 0.751);
 }
