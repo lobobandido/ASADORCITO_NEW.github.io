@@ -853,11 +853,12 @@ h4 {
   @keyframes cambioColor {
     0% { color: rgb(211, 214, 216); }
     50% { color: rgb(244, 241, 51); }
-    100% { color: rgb(8, 97, 49); }
+    100% { color: rgb(242, 25, 25); }
   }
   
   .animacion-p {
     animation: cambioColor 3s infinite;
+    text-align: center;
   }
   
   @keyframes aparecerLetras {
