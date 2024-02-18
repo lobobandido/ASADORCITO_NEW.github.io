@@ -853,7 +853,7 @@ h4 {
   @keyframes cambioColor {
     0% { color: rgb(211, 214, 216); }
     50% { color: rgb(244, 241, 51); }
-    100% { color: rgb(242, 25, 25); }
+    100% { color: rgb(225, 142, 142); }
   }
   
   .animacion-p {
