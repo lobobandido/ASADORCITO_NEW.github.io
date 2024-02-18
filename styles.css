@@ -852,7 +852,7 @@ h4 {
   /* ANIMACIONES*/
   @keyframes cambioColor {
     0% { color: rgb(211, 214, 216); }
-    50% { color: rgb(42, 21, 231); }
+    50% { color: rgb(244, 241, 51); }
     100% { color: rgb(8, 97, 49); }
   }
   
@@ -875,7 +875,7 @@ h4 {
     }
     100% {
       opacity: 0;
-      color: rgb(76, 7, 108);
+      color: rgb(237, 155, 32);
     }
   }
   
