@@ -848,3 +848,44 @@ h4 {
   width: 150px;
   box-shadow: 0 5px 5px 5px rgba(243, 173, 69, 0.751);
 }
+
+  /* ANIMACIONES*/
+  @keyframes cambioColor {
+    0% { color: rgb(211, 214, 216); }
+    50% { color: rgb(42, 21, 231); }
+    100% { color: rgb(8, 97, 49); }
+  }
+  
+  .animacion-p {
+    animation: cambioColor 3s infinite;
+  }
+  
+  @keyframes aparecerLetras {
+    0% {
+      opacity: 0;
+      color: transparent;
+    }
+    20% {
+      opacity: 1;
+      color: initial;
+    }
+    80% {
+      opacity: 1;
+      color: initial;
+    }
+    100% {
+      opacity: 0;
+      color: rgb(76, 7, 108);
+    }
+  }
+  
+  .animacion-letras {
+    animation: aparecerLetras 5s forwards infinite;
+    display: inline-block;
+  }
+  
+  /* Opcional: Para que cada letra tenga un efecto de entrada y salida */
+  .animacion-letras span {
+    animation: aparecerLetras 5s forwards infinite;
+    display: inline-block;
+  }
