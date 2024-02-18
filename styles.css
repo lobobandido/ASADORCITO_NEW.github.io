@@ -883,6 +883,7 @@ h4 {
   .animacion-letras {
     animation: aparecerLetras 5s forwards infinite;
     display: inline-block;
+    text-align: center;
   }
   
   /* Opcional: Para que cada letra tenga un efecto de entrada y salida */
