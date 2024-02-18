@@ -889,4 +889,5 @@ h4 {
   .animacion-letras span {
     animation: aparecerLetras 5s forwards infinite;
     display: inline-block;
+    text-align: center;
   }
